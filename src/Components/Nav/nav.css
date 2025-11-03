@@ -1,0 +1,265 @@
+.hero {
+    position: relative;
+    background-image: url(../../assets/image.png);
+    height:750px;
+    background-size: cover;
+
+    width: 100%;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 93.75%;
+    height:100px;
+    border-radius: 100px;
+    background-color: rgba(225, 255, 255, 30%);
+    
+}
+.flagimg{
+    position: absolute;
+    top:0px;
+    left: -7px;
+    width: 215px;
+    height:100px;
+    border-radius: 100px;
+}
+.navItems{
+    display: flex;
+    gap: 25px;
+}
+h1{
+    
+    font-family: "phantom sans", sans-serif;
+    font-size: 30px;
+    color: rgba(225, 255, 255, 90%);
+}
+.don-dark{
+    display:flex;
+}
+.darkmode{
+    width: 100px;
+    margin-right: 25px;
+    height: 50px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFB106;
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+    border: 1px solid rgba(255, 179, 8,0.2 );
+}
+.donation{
+    width: 100px;
+    margin-right: 25px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    border-radius: 100px;
+    background-color: rgba(236, 55, 80, 0.3);
+    border: 1px solid rgba(236, 55, 80, 0.5);
+      box-shadow:8px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.pillars{
+    width: 18.75px;
+    height: 14px;
+    position: absolute;
+    top: 17px;
+}
+.home{
+    width: 31.25px;
+    height: 29.7px;
+    top: 7px;
+    position: absolute;
+}
+.light{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+}
+.btnbg{
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 35px;
+    height: 35px;
+    position: absolute;
+}
+.light button{
+    border: none;
+    border-radius: 100%;
+}
+.sunbtn{
+    background-color: none;
+    z-index: 1111111;
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    max-width: 25px;
+    max-height: 25px;
+}
+
+#dark{
+    display: none;
+}
+#darkbtn{
+    background-color: #000000;
+}
+
+.glass{
+    width: 78.125%;
+    height:500px;
+    background-color: rgba(225, 255, 255, 30%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;   
+    margin-top: 50px;
+    margin-left: 40px;
+    border: 1px solid rgba(225, 255, 255, 30%);
+    display:flex;
+    align-items: center;
+    flex-direction: column;    
+    box-shadow:8px 8px 16px rgba(0, 0, 0, 0.2),8px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.hero-text{
+    height:300px;
+    text-shadow: 
+    1px 1px 1px rgba(255,255,255,0.3),
+    -1px -1px 1px rgba(0,0,0,0.3),
+    0px 0px 5px rgba(0,0,0,0.3);
+    font-family: "phantom sans bold", sans serif;
+    color: white;
+    padding: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.hero-btns{
+    height: 200px;
+    display: flex;
+    gap: 25%;
+
+}
+.glass h1{
+    font-size: 64px;
+    font-family: "phantom sans bold", sans serif;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom:50px ;
+}
+.hero-text p{
+    font-size: 32px;
+          text-shadow: 
+        1px 1px 1px rgba(255,255,255,0.1),
+        -1px -1px 1px rgba(0,0,0,0.1),
+        0px 0px 5px rgba(0,0,0,0.1);
+    font-style: bold;
+    width: 900px;
+}
+.btns{
+    width: 340px;
+    height: 75px;
+    border-radius: 100px;
+    background-color: rgba(255, 73, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 15px;
+    padding: 20px;
+    font-size: 35px;
+    font-family: 'phantom sans bold', sans-serif;
+    box-shadow:8px 8px 16px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 179, 8,0.5 );
+}
+.join-icon{
+    width: 35px;
+    height: 35px;
+}
+.hcicon{
+    width: 14.5px;
+    height: 25.78px;
+}
+.hero-scnprt{
+    display: flex;
+    flex-direction: row;
+}
+.frame{
+    width: 35px;
+    height: 35px;
+}
+.sidebar{
+    height:500px;
+    width: 11.71875%;
+    background-color: rgba(225, 255, 255, 30%);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    font-size:48px;
+    font-family: 'semibold', sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 
+        1px 1px 1px rgba(255,255,255,0.3),
+        -1px -1px 1px rgba(0,0,0,0.3),
+        0px 0px 5px rgba(0,0,0,0.3);
+    box-shadow:8px 8px 16px rgba(0, 0, 0, 0.2),8px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.side-items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0px;
+    width: 100px;
+    max-width: 100px;
+}
+.side-items p{
+    font-size: 30px;
+}
+.clubimg{
+    width: 40px;
+    margin-left:20px ;
+    height: 40px;
+}
+.clubbers{
+    width: 73px;
+    height: 73px;
+}
+.side-items div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 43px;
+    position: relative;
+}
+.cal{
+    width: 37.5px;
+    height: 37.5px;
+    position: absolute;
+}
+.tags{
+    width: 22.66px;
+    height: 13.28px;
+    position: absolute;
+    top: -3px;
+}
+.right{
+    width: 34px;
+    height: 26.1px;
+    position: absolute;
+    left: -12px;
+}
+.cropped{
+    width: 37.5px;
+    height: 13.37.5px;
+    position: absolute;
+}

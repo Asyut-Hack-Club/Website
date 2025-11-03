@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+
+}
+@font-face {
+    font-family: 'phantom sans';
+    src: url(./assets/Fonts/TRIAL_PhantomSans0.8-Regular-BF65a9d4d07bf7f.ttf);
+}
+@font-face {
+    font-family: "phantom sans bold";
+    src: url(./assets/Fonts/TRIAL_PhantomSans0.8-Bold-BF65a9d4d025adb.ttf);
+}
+@font-face {
+    font-family: 'semibold';
+    src: url(./assets/Fonts/TRIAL_PhantomSans0.8-Semibold-BF65a9d4cfe31dd.ttf);
+}
