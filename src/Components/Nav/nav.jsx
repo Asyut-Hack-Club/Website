@@ -13,19 +13,20 @@ import clubimg from "../../assets/clubs.png"
 import clubbers from "../../assets/clubbers.png"
 import hcicon from'../../assets/hcicon.png'
 import light from "../../assets/light.png"
+import { Link } from "react-router"
 const Nav = () => {
   return (
-    <body className="hero">
+  
         
         <div className="navbar">
             <a href="https://hackclub.com"><img src={flag} className="flagimg" /></a>
              <div className="navItems">
-                <h1>Home</h1>
-                <h1>About Us</h1>
-                <h1>Events</h1>
-                <h1>Projects</h1>
-                <h1>YSWSs</h1>
-                <h1>FAQ</h1>
+                <Link to={'/'}>Home</Link>
+                <Link to={'/about-us'}>About Us</Link>
+                <Link>Events</Link>
+                <Link>Projects</Link>
+                <Link>YSWSs</Link>
+                <Link>FAQ</Link>
             </div>
             <div className="don-dark">
                 <div className="donation">
@@ -44,51 +45,7 @@ const Nav = () => {
                 </div>
             </div>
         </div>
-        <div className="hero-scnprt">
-          <div className="glass">
-            <div className="hero-text">
-            <h1>Welcome To Asyut Hack Club</h1>
-            <p>We're the largest coding community for teens in Asyut, where creativity meets code!</p></div>
-          <div className="hero-btns">
-            <div className="btns">
-              <p>Join Now!</p>
-              <div className="join-icon">
-                <img className="frame" src={frame} alt="" />
-              </div>
-            </div>
-            <div className="btns">
-              <p>Learn More</p>
-              <img className="hcicon" src={hcicon} alt="" />
-            </div>
-          </div>
-          </div>
-          <div className="sidebar">
-            <p>Info</p>
-            <div className="side-items">
-              <p>+1.1K</p>
-              <img className="clubimg" src={clubimg} alt="" />
-            </div>
-            <div className="side-items">
-              <p>+111k</p>
-              <img className="clubbers" src={clubbers} alt="" />
-            </div>
-            <div className="side-items">
-              <p>+500</p>
-              <div>
-                <img className="cal" src={cal} alt="" />
-                <img className="tags" src={tags} alt="" />
-              </div>
-            </div>
-            <div className="side-items">
-              <p>+75k</p>
-              <div>
-                <img className="cropped" src={cropped} alt="" />
-                <img className="right" src={right} alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-    </body>
+        
   )
 }
 

@@ -1,9 +1,14 @@
 import React from 'react'
-import Nav from "./Components/Nav/nav.jsx"
+import Home from './Pages/Home/Home'
+import About from './Pages/About Us/About'
+import { Routes, Route } from 'react-router'
 
 const App = () => {
   return (
-    <Nav />
+    <Routes>
+      <Route path='/' element={<Home/>} />
+      <Route path='/about-us' element={<About/>} />
+    </Routes>
   )
 }
 
